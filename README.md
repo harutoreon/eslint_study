@@ -1,5 +1,4 @@
-# ESLint
-ESLinter の学習用リポジトリ
+# ESLint の学習用リポジトリ
 
 ## 学習教材
 - [【ESLint】インストール&設定の手順と、実行結果の見方][url_install]
