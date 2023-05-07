@@ -5,6 +5,7 @@
   "env": {"browser": true},
   "globals": {},
   "rules": {
-    "semi": ["error", "always"]
+    "semi": ["error", "always"],
+    "indent": ["error", 2]
   }
 }
