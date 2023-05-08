@@ -19,6 +19,7 @@
       "after": true
     }],
     "brace-style": ["error", "1tbs"],
-    "curly": ["error", "multi-line"]
+    "curly": ["error", "multi-line"],
+    "func-call-spacing": ["error", "never"]
   }
 }
