@@ -18,6 +18,7 @@
       "before": false,
       "after": true
     }],
-    "brace-style": ["error", "1tbs"]
+    "brace-style": ["error", "1tbs"],
+    "curly": ["error", "multi-line"]
   }
 }
