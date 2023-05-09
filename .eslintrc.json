@@ -26,6 +26,7 @@
     "afterColon": true
     }],
     "new-cap": ["error", { "newIsCap": true }],
-    "new-parens": ["error", "always"]
+    "new-parens": ["error", "always"],
+    "no-array-constructor": ["error"]
   }
 }
