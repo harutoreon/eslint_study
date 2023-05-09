@@ -28,6 +28,10 @@
     "new-cap": ["error", { "newIsCap": true }],
     "new-parens": ["error", "always"],
     "no-array-constructor": ["error"],
-    "no-floating-decimal": ["error"]
+    "no-floating-decimal": ["error"],
+    "semi-spacing": ["error", {
+      "before": false,
+      "after": true
+    }]
   }
 }
