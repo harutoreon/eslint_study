@@ -25,6 +25,7 @@
       "beforeColon": false,
     "afterColon": true
     }],
-    "new-cap": ["error", { "newIsCap": true }]
+    "new-cap": ["error", { "newIsCap": true }],
+    "new-parens": ["error", "always"]
   }
 }
