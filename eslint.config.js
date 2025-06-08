@@ -20,7 +20,10 @@ export default [
       'no-array-constructor': 'warn',
       'no-floating-decimal': 'warn',
       'semi-spacing': ['warn', { 'before': false, 'after': true }],
-      'spaced-comment': ['warn', 'always']
+      'spaced-comment': ['warn', 'always'],
+      // 'no-undef': 'warn',
+      'no-debugger': 'warn',
+      'no-eval': 'warn',
     },
   },
 ];
