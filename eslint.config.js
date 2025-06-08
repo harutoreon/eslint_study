@@ -2,8 +2,25 @@ export default [
   {
     files: ['**/*.js'],
     rules: {
-      semi: ['error', 'always'],
-      quotes: ['error', 'single'],
+      'semi': ['warn', 'always'],
+      'quotes': ['warn', 'single'],
+      'indent': ['warn', 2],
+      'no-unused-vars': 'warn',
+      'eqeqeq': ['warn', 'always'],
+      // 'no-console': 'warn',
+      'keyword-spacing': 'warn',
+      'space-before-function-paren': ['warn', 'never'],
+      'space-infix-ops': 'warn',
+      'comma-spacing': 'warn',
+      'brace-style': ['warn', '1tbs'],
+      'curly': ['warn', 'all'],
+      'func-call-spacing': ['warn', 'never'],
+      'key-spacing': ['warn', { 'beforeColon': false, 'afterColon': true }],
+      'new-cap': ['warn', {'newIsCap': true}],
+      'no-array-constructor': 'warn',
+      'no-floating-decimal': 'warn',
+      'semi-spacing': ['warn', { 'before': false, 'after': true }],
+      'spaced-comment': ['warn', 'always']
     },
   },
 ];
